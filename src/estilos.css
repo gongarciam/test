@@ -1,0 +1,461 @@
+
+/* Estilo del cuerpo de la página */
+body {
+    font-family: "Calibri", sans-serif;
+    font-size: 12pt;
+    margin: 0;
+    padding: 0;
+    display: flex;                   /* Usamos flexbox para que el contenido crezca y el pie se quede abajo */
+    flex-direction: column;          /* Organiza los elementos en columna */
+    min-height: 100vh;               /* Asegura que la página ocupe toda la altura de la ventana */
+    padding-left: 5%;                /* Márgenes laterales del contenido */
+	height: 100%; /* Ocupa toda la altura de la ventana */
+    padding-right: 5%;               /* Márgenes laterales del contenido */
+}
+
+/* Main */
+main {
+  flex: 1; /* El contenido principal ocupa el espacio disponible */
+  padding: 20px; /* Opcional, para margen interno */
+}
+   
+
+#defaultOpen, #tab_estadisticas, #tab_Tiempos,#tab_Hits,#tab_Errores,#tab_comparativa,#tab_historico,#tab_doc{
+    overflow: visible; /* Permite que el contenido adicional sea visible */
+}
+
+  
+
+/* Eliminar bordes de la tabla con id="tbl_encabezado_ppal" */
+#tbl_encabezado_ppal {
+    border: none;
+}
+
+#tbl_encabezado_ppal th, #tbl_encabezado_ppal td {
+    border: none;
+}
+
+/* Eliminar márgenes y padding de las celdas con imágenes */
+#tbl_encabezado_ppal td img {
+    margin: 0;
+    padding: 0;
+    display: block; /* Evitar el espacio adicional debajo de las imágenes */
+}
+
+
+/* Estilos para las pestañas */
+.tab {
+    overflow: hidden;
+    background-color: #f9f9f9;
+    display: flex;
+    gap: 2px;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+    border-radius: 8px; /* Bordes redondeados para la parte superior */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.tab button {
+    background-color: white;
+    border: none; /* Eliminar borde */
+    outline: none;
+    cursor: pointer;
+    padding: 12px 20px;
+    font-size: 14px;
+    white-space: nowrap;
+    flex: 1 1 100px;
+    min-width: 100px;
+    text-align: center;
+    border-radius: 6px; /* Bordes redondeados */
+    transition: all 0.3s ease-in-out; /* Transición suave */
+    color: #333; /* Color de texto */
+    display: flex; /* Para colocar el icono y texto en línea */
+    align-items: center; /* Centra verticalmente los elementos */
+    justify-content: flex-start; /* Alinea el contenido a la izquierda */
+}
+
+.tab button i {
+    margin-right: 10px; /* Mayor espacio entre el icono y el texto */
+    font-size: 15px; /* Tamaño del icono */
+}
+
+.tab button:hover {
+    background-color: rgb(193, 211, 255); /* Fondo azul claro cuando hover */
+    color: rgb(3, 49, 180); /* Texto azul */
+}
+
+.tab button.active {
+    background-color: rgb(3, 49, 180); /* Fondo azul cuando está activo */
+    color: white; /* Texto blanco cuando está activo */
+}
+
+.tab button:disabled {
+    color: #ccc; /* Texto gris cuando está desactivado */
+    background-color: white; /* Fondo blanco */
+    cursor: default; /* El cursor no cambia cuando está desactivado */
+}
+
+.tab button:focus {
+    outline: none; /* Quitar el contorno de enfoque */
+    box-shadow: 0px 0px 5px rgba(3, 49, 180, 0.5); /* Sombra suave en foco */
+}
+
+/* Estilo para el contenido de las pestañas */
+.tabcontent {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-radius: 6px; /* Bordes redondeados */
+    margin-top: 0px; /* Eliminar el margen superior para acercar el contenido */
+    background-color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.tabcontent.active {
+    display: block; /* Mostrar el contenido cuando la pestaña está activa */
+}
+
+
+/* Estilos generales para las tablas */
+.tbl_encabezado, .tbl_class1, .tbl_class2 {
+    width: 90%;
+    margin: 0 auto; /* Elimina el margen superior entre las tablas y el contenido */
+    border-collapse: collapse;
+}
+
+.tbl_encabezado th, .tbl_class1 th, .tbl_class2 th {
+    text-align: left;
+    padding: 8px;
+}
+
+.tbl_encabezado td, .tbl_class1 td, .tbl_class2 td {
+    text-align: left;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.tbl_class1 th, .tbl_class2 th {
+    color: #1a5276;
+    border-bottom: 1pt solid black;
+}
+
+.tbl_class1 tr:nth-child(even), .tbl_class2 tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.tbl_class1 tbody tr:hover {
+    background-color: #eaf2f8;
+    color: #081fde;
+    cursor: pointer;
+}
+
+/* Estilos para tablas con transiciones */
+.tbl_class1 tbody tr, .tbl_class2 tbody tr {
+    transition: color 0.2s ease; /* Transición suave para el cambio de color */
+}
+ 
+/* Estilos para los contenedores de pestañas */
+[id^="tab_"] {
+    min-width: 310px;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: auto;
+}
+
+ 
+/* Centrar los encabezados de las tablas */
+.tbl_class1 th, .tbl_class2 th {
+    text-align: center; /* Centrar los encabezados */
+}
+
+
+.tbl_class1, .tbl_class2 {
+    border-collapse: collapse;
+}
+
+.tbl_class1 td, .tbl_class2 td {
+    text-align: center;
+}
+
+.tbl_class1 tr, .tbl_class2 tr {
+    background-color: white;
+    text-align: center;
+    border-bottom: 1pt solid black;
+}
+
+ 
+/* Estilos generales para el contenedor de la paginación */
+#paginador_htco_ejec {
+    display: flex;
+    justify-content: center; /* Centra los controles de paginación */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+ 
+
+/* Botones de paginación */
+.pag_btn {
+    padding: 5px 15px; /* Botones más pequeños */
+    border: 1px solid rgb(3, 49, 180);  /* Tono azul solicitado */
+    border-radius: 5px;
+    background-color: white;
+    color: rgb(3, 49, 180);  /* Tono azul solicitado */
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Transición suave */
+    margin: 0 5px; /* Espaciado entre botones */
+}
+
+.pag_btn:hover {
+    background-color: rgb(3, 49, 180);
+    color: white;
+}
+
+.pag_btn_des {
+    padding: 5px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    color: #ccc;
+    font-size: 12px;
+    cursor: not-allowed;
+    margin: 0 5px;
+}
+
+/* Paginación numérica (sin relleno ni border) y con texto en negrita */
+.pag_num {
+    padding: 5px 15px;
+    background-color: transparent; /* Sin relleno de fondo */
+    color: rgb(3, 49, 180);  /* Tono azul solicitado */
+    font-size: 12px;
+    margin: 0 5px;
+    border: none; /* Sin borde */
+    font-weight: bold; /* Negrita */
+    cursor: default; /* No cambia el cursor */
+}
+
+/* No cambia el color ni fondo del número cuando pasas el mouse */
+.pag_num:hover {
+    background-color: transparent;
+    color: rgb(3, 49, 180);  /* No cambia el color */
+}
+
+
+/* Estilo para los botones de acción como <input type="button"> */
+input[type="button"].btn_action {
+    padding: 6px 18px; /* Tamaño del botón */
+    font-size: 12px;  /* Tamaño de la fuente */
+    border-radius: 6px;  /* Bordes redondeados */
+    border: 1px solid rgb(3, 49, 180); /* Borde azul */
+    background-color: white; /* Fondo blanco */
+    color: rgb(3, 49, 180); /* Texto azul */
+    cursor: pointer; /* Indica que es clickeable */
+    transition: all 0.3s ease-in-out; /* Transición suave */
+    margin: 5px;
+}
+
+/* Hover: cuando se pasa el ratón sobre el botón */
+input[type="button"].btn_action:hover {
+    background-color: rgb(3, 49, 180); /* Fondo azul */
+    color: white; /* Texto blanco */
+    border-color: rgb(3, 49, 180); /* Borde azul */
+}
+
+/* No hay cambios cuando se hace clic, el estilo sigue igual */
+input[type="button"].btn_action:active {
+    background-color: white; /* Fondo blanco (igual que antes del clic) */
+    color: rgb(3, 49, 180); /* Texto azul (igual que antes del clic) */
+    border-color: rgb(3, 49, 180); /* Borde azul (igual que antes del clic) */
+}
+
+/* Asegurarse de que el botón no se quede con el estilo de enfoque después de hacer clic */
+input[type="button"].btn_action:focus {
+    outline: none; /* Eliminar el contorno predeterminado del navegador */
+}
+
+
+/* Estilo para los cuadros de texto (input[type="text"]) */
+input[type="text"].input_text {
+    padding: 6px 12px; /* Espaciado interno */
+    font-size: 12px; /* Tamaño de la fuente */
+	font-family: "Calibri", sans-serif;
+    border-radius: 6px; /* Bordes redondeados */
+    border: 1px solid #ccc; /* Borde gris claro */
+    background-color: white; /* Fondo blanco */
+    color: rgb(3, 49, 180); /* Texto azul */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Transición suave para el borde y el enfoque */
+}
+ 
+
+/* Hover: cuando se pasa el ratón sobre el cuadro de texto */
+input[type="text"].input_text:hover {
+    border-color: rgb(3, 49, 180); /* Borde azul */
+}
+
+/* Foco: cuando se hace clic en el cuadro de texto */
+input[type="text"].input_text:focus {
+    border-color: rgb(3, 49, 180); /* Borde azul */
+    outline: none; /* Eliminar contorno predeterminado */
+    box-shadow: 0 0 5px rgba(3, 49, 180, 0.5); /* Sombra de enfoque azul */
+}
+
+/* Estilo para los cuadros de texto (textarea) */
+textarea.input_text {
+    padding: 6px 12px; /* Espaciado interno */
+    font-size: 14px; /* Tamaño de la fuente */
+	font-family: "Calibri", sans-serif;
+    border-radius: 6px; /* Bordes redondeados */
+    border: 1px solid #ccc; /* Borde gris claro */
+    background-color: white; /* Fondo blanco */
+    color: rgb(3, 49, 180); /* Texto azul */
+    width: 90%; /* Ancho del 90% */
+    margin-left: 20px; /* Alineado a la izquierda con margen de 20px */
+    height: 10em; /* Altura de 10 líneas (aproximadamente) */
+    box-sizing: border-box; /* Incluye padding y border en el ancho total */
+}
+
+
+/* Hover: cuando se pasa el ratón sobre el cuadro de texto */
+textarea.input_text:hover {
+    border-color: rgb(3, 49, 180); /* Borde azul */
+}
+
+/* Foco: cuando se hace clic en el cuadro de texto */
+textarea.input_text:focus {
+    border-color: rgb(3, 49, 180); /* Borde azul */
+    outline: none; /* Eliminar contorno predeterminado */
+    box-shadow: 0 0 5px rgba(3, 49, 180, 0.5); /* Sombra de enfoque azul */
+}
+
+
+/* Estilo para los combos (select) */
+select.input_combo {
+    padding: 6px 12px; /* Espaciado interno */
+    font-size: 12px; /* Tamaño de la fuente */
+    border-radius: 6px; /* Bordes redondeados */
+    border: 1px solid #ccc; /* Borde gris claro */
+    background-color: white; /* Fondo blanco */
+    color: rgb(3, 49, 180); /* Texto azul */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Transición suave para el borde y el enfoque */
+}
+
+/* Hover: cuando se pasa el ratón sobre el combo */
+select.input_combo:hover {
+    border-color: rgb(3, 49, 180); /* Borde azul */
+}
+
+/* Foco: cuando se hace clic en el combo */
+select.input_combo:focus {
+    border-color: rgb(3, 49, 180); /* Borde azul */
+    outline: none; /* Eliminar contorno predeterminado */
+    box-shadow: 0 0 5px rgba(3, 49, 180, 0.5); /* Sombra de enfoque azul */
+}
+
+/* Estilos para los contenedores de los gráficos */
+.grafico_grande {
+    width: 90%;            /* El contenedor ocupa el 90% del ancho de la ventana */
+    max-width: 100%;       /* Se asegura que no sobrepase el 100% del ancho */
+    margin: 0 auto;        /* Centra el contenedor horizontalmente */
+    display: block;        /* Cambié a bloque para eliminar posibles problemas de alineación con otros estilos */
+    height: auto;          /* Permite que la altura se ajuste al contenido */
+    padding: 10px;         /* Espacio interior para separar el contenido */
+    box-sizing: border-box; /* Incluye el padding en el cálculo del ancho */
+    overflow: hidden;      /* Evita que el contenido del gráfico se desborde si es necesario */
+}
+ 
+/*Estilos para los encabezados*/
+h2.encabezado-personalizado {
+    font-size: 14pt;
+    text-align: left;
+    color: rgb(3, 50, 180);
+}
+
+h3.encabezado-personalizado {
+    font-size: 13pt;
+    text-align: left;
+    color: rgb(3, 50, 120);
+}
+
+/* Estilo para los enlaces */
+a.enlace-estilizado {
+    color: rgb(56, 109, 204); /* Azul más claro cuando no se pasa el ratón */
+    text-decoration: none; /* Quitar subrayado */
+    padding: 4px 10px; /* Espaciado interno */
+    border-radius: 6px; /* Bordes redondeados */
+    font-size: inherit; /* Tamaño de fuente igual al del body */
+    transition: color 0.3s; /* Transición suave solo en el color */
+}
+
+a.enlace-estilizado:hover {
+    color: rgb(2, 38, 128); /* Color más oscuro al pasar el ratón */
+}
+
+a.enlace-estilizado:focus {
+    outline: none; /* Eliminar contorno predeterminado */
+}
+
+
+
+ul li {
+	font-family: "Calibri";
+    font-size: 12pt;  /* Tamaño de la fuente */
+    font-weight: normal; /* Sin negrita */
+    color: black; /* Color del texto de los elementos */
+    margin: 5px 0; /* Espaciado entre los elementos */
+	list-style: none; /* Elimina el estilo predeterminado */
+    padding-left: 0; /* Ajusta el margen para la alineación */
+}
+
+.mi-lista li::before {
+    content: ''; /* Sin contenido textual */
+    width: 6px; /* Ancho del círculo */
+    height: 6px; /* Alto del círculo */
+    border: 2px solid rgba(0, 75, 111, 1); /* Borde del círculo */
+    border-radius: 50%; /* Lo hace un círculo */
+    margin-right: 5px; /* Espaciado entre el círculo y el texto */
+    display: inline-block; /* Alineación correcta con el texto */	
+} 
+
+
+/* Estilo del footer */
+footer {
+  background-color: rgba(0, 75, 111, 1); /* Color de fondo del pie de página */
+  color: white; /* Fuente en blanco */
+  padding: 10px 0; /* Padding solo arriba y abajo, nada a los lados */
+  width: 100%; /* Asegura que ocupe todo el ancho disponible */
+  box-sizing: border-box; /* Esto asegura que el padding no afecte el ancho total */
+  margin: 0; /* Elimina márgenes que podrían estar afectando el ancho */
+  text-align: center; /* Centra el texto del pie */
+}
+
+footer table {
+  width: 100%; /* Tabla ocupa el 100% de ancho */
+  border-collapse: collapse; /* Para evitar bordes entre celdas */
+}
+
+footer td {
+  padding: 10px; /* Espaciado interno en las celdas */
+}
+
+footer .left {
+ // width: 33%; /* Primera columna ocupa el 10% */
+  text-align: left; /* Alineación a la izquierda */
+}
+
+footer .center {
+ // width: 33%; /* Segunda columna ocupa el 80% */
+  text-align: center; /* Alineación al centro */
+}
+
+footer .right {
+ // width: 33%; /* Tercera columna ocupa el 10% */
+  text-align: right; /* Alineación a la derecha */
+}
+
+ .main-container {
+  width: 100%;
+}
+
+
+.hidden { display: none !important; }

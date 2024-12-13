@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.4.1">
+  <hashTree>
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Travel_DEMO" enabled="true">
+      <stringProp name="TestPlan.comments">This test plan was created by the BlazeMeter converter v.${project.version}. Please contact support@blazemeter.com for further support.</stringProp>
+      <boolProp name="TestPlan.functional_mode">false</boolProp>
+      <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
+      <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" enabled="true">
+        <collectionProp name="Arguments.arguments"/>
+      </elementProp>
+      <stringProp name="TestPlan.user_define_classpath"></stringProp>
+    </TestPlan>
+    <hashTree>
+      <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+        <collectionProp name="Arguments.arguments">
+          <elementProp name="path" elementType="Argument">
+            <stringProp name="Argument.name">path</stringProp>
+            <stringProp name="Argument.value">${__BeanShell(org.apache.jmeter.services.FileServer.getFileServer().getBaseDir())}</stringProp>
+            <stringProp name="Argument.desc">****ruta del script</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="carpeta_csv_raw_data" elementType="Argument">
+            <stringProp name="Argument.name">carpeta_csv_raw_data</stringProp>
+            <stringProp name="Argument.value">resultados</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+            <stringProp name="Argument.desc">****nombre de la carpeta con el csv de entrada</stringProp>
+          </elementProp>
+          <elementProp name="csv_entrada" elementType="Argument">
+            <stringProp name="Argument.name">csv_entrada</stringProp>
+            <stringProp name="Argument.value">TRAVEL_DEMO_20241209_1157_UMBRAL.csv</stringProp>
+            <stringProp name="Argument.desc">****nombre del csv de entrada</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="csv_salida" elementType="Argument">
+            <stringProp name="Argument.name">csv_salida</stringProp>
+            <stringProp name="Argument.value">jmeter_aggregate.csv</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+        </collectionProp>
+      </Arguments>
+      <hashTree/>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="CSV REPORTE AGREGADO" enabled="true">
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+          <stringProp name="LoopController.loops">1</stringProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.num_threads">1</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
+        <boolProp name="ThreadGroup.scheduler">false</boolProp>
+        <stringProp name="ThreadGroup.duration"></stringProp>
+        <stringProp name="ThreadGroup.delay"></stringProp>
+        <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
+      </ThreadGroup>
+      <hashTree>
+        <kg.apc.jmeter.samplers.DummySampler guiclass="kg.apc.jmeter.samplers.DummySamplerGui" testclass="kg.apc.jmeter.samplers.DummySampler" testname="01.Crea reporte de agregados" enabled="true">
+          <boolProp name="WAITING">true</boolProp>
+          <boolProp name="SUCCESFULL">true</boolProp>
+          <stringProp name="RESPONSE_CODE">200</stringProp>
+          <stringProp name="RESPONSE_MESSAGE">OK</stringProp>
+          <stringProp name="REQUEST_DATA">Dummy Sampler used to simulate requests and responses
+without actual network activity. This helps debugging tests.</stringProp>
+          <stringProp name="RESPONSE_DATA">Dummy Sampler used to simulate requests and responses
+without actual network activity. This helps debugging tests.</stringProp>
+          <stringProp name="RESPONSE_TIME">${__Random(50,500)}</stringProp>
+          <stringProp name="LATENCY">${__Random(1,50)}</stringProp>
+          <stringProp name="CONNECT">${__Random(1,5)}</stringProp>
+          <stringProp name="URL"></stringProp>
+          <stringProp name="RESULT_CLASS">org.apache.jmeter.samplers.SampleResult</stringProp>
+        </kg.apc.jmeter.samplers.DummySampler>
+        <hashTree>
+          <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="BeanShell PostProcessor" enabled="true">
+            <boolProp name="resetInterpreter">false</boolProp>
+            <stringProp name="parameters"></stringProp>
+            <stringProp name="filename"></stringProp>
+            <stringProp name="script">// Importar las clases necesarias para BeanShell
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.BufferedWriter;
+import java.text.DecimalFormat;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
+
+// Inicializar las variables de entrada y salida desde las variables de JMeter
+String inputFile = vars.get(&quot;path&quot;) + &quot;//&quot; + vars.get(&quot;carpeta_csv_raw_data&quot;) + &quot;//&quot; + vars.get(&quot;csv_entrada&quot;);
+String outputFile = vars.get(&quot;path&quot;) + &quot;//&quot; + vars.get(&quot;carpeta_csv_raw_data&quot;) + &quot;//&quot; + vars.get(&quot;csv_salida&quot;);
+
+// Crear o abrir archivo de salida
+FileWriter fileWriter = new FileWriter(outputFile);
+BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+
+// Inicializar variables para cálculos
+elapsedTimes = new HashMap();  // Usamos HashMap para almacenar los tiempos por etiqueta
+totalCount = new HashMap();  // Almacena el número total de muestras por etiqueta
+errorCount = new HashMap();  // Almacena el número de errores por etiqueta
+
+// Variables para totales
+totalSamples = 0;
+totalSum = 0;
+totalMin = 999999999;  // Inicializamos con un valor muy alto
+totalMax = 0;
+totalErrors = 0;
+allTimes = new ArrayList();
+totalDurationMillis = 0;  // Agregado para calcular el throughput
+
+// Variables para el cálculo de errores, pero sin contar AC00
+totalSamplesExcludingAC00 = 0;
+totalErrorsExcludingAC00 = 0;
+
+// Inicializar DecimalFormat para formatear los números con dos decimales
+dfTwoDecimal = new DecimalFormat(&quot;#.##&quot;);
+dfNoDecimal = new DecimalFormat(&quot;0&quot;);
+
+// Leer el archivo CSV
+BufferedReader reader = new BufferedReader(new FileReader(inputFile));
+String line;
+firstTimestamp = Long.MAX_VALUE;
+lastTimestamp = Long.MIN_VALUE;
+
+while ((line = reader.readLine()) != null) {
+    // Saltar la primera línea si tiene los encabezados
+    if (line.startsWith(&quot;timeStamp&quot;)) {
+        continue;
+    }
+
+    // Dividir la línea por comas
+    columns = line.split(&quot;,&quot;);
+
+    // Extraer los valores relevantes
+    label = columns[2];  // &quot;label&quot;
+    elapsed = Long.parseLong(columns[1]);  // &quot;elapsed&quot;
+    success = Boolean.parseBoolean(columns[7]);  // &quot;success&quot;
+    timestamp = Long.parseLong(columns[0]);  // &quot;timeStamp&quot;
+
+    // Actualizar el primer y último timestamp para calcular la duración total
+    if (timestamp &lt; firstTimestamp) firstTimestamp = timestamp;
+    if (timestamp &gt; lastTimestamp) lastTimestamp = timestamp;
+
+    // Almacenar los tiempos de respuesta por etiqueta
+    if (!elapsedTimes.containsKey(label)) {
+        elapsedTimes.put(label, new ArrayList());  // Crear una nueva lista si no existe la etiqueta
+        totalCount.put(label, 0);  // Inicializar el contador de muestras
+        errorCount.put(label, 0);  // Inicializar el contador de errores
+    }
+    elapsedTimes.get(label).add(elapsed);  // Agregar el tiempo a la lista correspondiente
+    totalCount.put(label, totalCount.get(label) + 1);  // Incrementar el contador de muestras
+
+    // Contabilizar los errores
+    if (!success) {
+        errorCount.put(label, errorCount.get(label) + 1);  // Incrementar el contador de errores por etiqueta
+        totalErrors++;  // Sumar al total de errores
+        if (!label.contains(&quot;AC00&quot;)) {
+            totalSamplesExcludingAC00++;  // Solo contar las muestras que no son AC00
+            totalErrorsExcludingAC00++;  // Solo contar los errores que no son AC00
+        }
+    }
+
+    // Acumulando los totales
+    totalSamples++;
+    totalSum += elapsed;
+    allTimes.add(elapsed);
+    if (elapsed &lt; totalMin) totalMin = elapsed;
+    if (elapsed &gt; totalMax) totalMax = elapsed;
+}
+
+// Calcular la duración total en milisegundos
+totalDurationMillis = lastTimestamp - firstTimestamp;
+
+// Escribir la cabecera en el archivo de salida
+bufferedWriter.write(&quot;Label, Samples, Average, p90, Min, Max, Error %, Throughput (req/sec)\n&quot;);
+
+// Calcular y escribir los resultados por cada label
+elapsedTimes.forEach((label, times) -&gt; {
+    // Calcular el promedio de los tiempos para cada etiqueta
+    sum = 0;
+    for (timeObj : times) {
+        sum += timeObj;  // Sumar los tiempos
+    }
+    average = sum / times.size();  // Promedio de tiempos
+
+    // Calcular el p90
+    Collections.sort(times);
+    p90 = times.get((int) (times.size() * 0.9));
+
+    // Calcular el porcentaje de errores para esta etiqueta
+    errors = errorCount.get(label);
+    samples = totalCount.get(label);
+    errorPercentage = (errors / (double) samples) * 100;
+
+    // Calcular throughput (requiere la duración total en segundos)
+    throughput = samples / (totalDurationMillis / 1000.0);
+
+    // Escribir la fila correspondiente para cada etiqueta
+    bufferedWriter.write(label + &quot;, &quot;
+            + samples + &quot;, &quot;
+            + dfTwoDecimal.format(average) + &quot;, &quot;
+            + p90 + &quot;, &quot;
+            + totalMin + &quot;, &quot;
+            + totalMax + &quot;, &quot;
+            + dfTwoDecimal.format(errorPercentage) + &quot;, &quot;
+            + dfTwoDecimal.format(throughput) + &quot;\n&quot;);
+});
+
+// Calcular los totales generales, excluyendo &quot;AC00&quot; para la media de errores
+averageErrorsExcludingAC00 = 0;
+if (totalSamplesExcludingAC00 &gt; 0) {
+    averageErrorsExcludingAC00 = (double) totalErrorsExcludingAC00 / totalSamplesExcludingAC00 * 100;
+}
+
+// Escribir los resultados totales en el archivo de salida
+bufferedWriter.write(&quot;\nTotal, &quot;
+        + totalSamples + &quot;, &quot;
+        + dfTwoDecimal.format(totalSum / totalSamples) + &quot;, &quot;
+        + dfNoDecimal.format(averageErrorsExcludingAC00) + &quot;%, &quot;
+        + totalErrors + &quot;\n&quot;);
+
+// Cerrar el archivo
+bufferedWriter.close();
+</stringProp>
+          </BeanShellPostProcessor>
+          <hashTree/>
+        </hashTree>
+      </hashTree>
+      <ResultCollector guiclass="StatVisualizer" testclass="ResultCollector" testname="Aggregate Report" enabled="true">
+        <boolProp name="ResultCollector.error_logging">false</boolProp>
+        <objProp>
+          <name>saveConfig</name>
+          <value class="SampleSaveConfiguration">
+            <time>true</time>
+            <latency>true</latency>
+            <timestamp>true</timestamp>
+            <success>true</success>
+            <label>true</label>
+            <code>true</code>
+            <message>true</message>
+            <threadName>true</threadName>
+            <dataType>true</dataType>
+            <encoding>false</encoding>
+            <assertions>false</assertions>
+            <subresults>true</subresults>
+            <responseData>false</responseData>
+            <samplerData>false</samplerData>
+            <xml>false</xml>
+            <fieldNames>true</fieldNames>
+            <responseHeaders>false</responseHeaders>
+            <requestHeaders>false</requestHeaders>
+            <responseDataOnError>false</responseDataOnError>
+            <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+            <assertionsResultsToSave>0</assertionsResultsToSave>
+            <bytes>true</bytes>
+            <sentBytes>true</sentBytes>
+            <url>true</url>
+            <threadCounts>true</threadCounts>
+            <sampleCount>true</sampleCount>
+            <idleTime>true</idleTime>
+            <connectTime>true</connectTime>
+          </value>
+        </objProp>
+        <stringProp name="filename"></stringProp>
+      </ResultCollector>
+      <hashTree/>
+      <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+        <boolProp name="ResultCollector.error_logging">false</boolProp>
+        <objProp>
+          <name>saveConfig</name>
+          <value class="SampleSaveConfiguration">
+            <time>true</time>
+            <latency>true</latency>
+            <timestamp>true</timestamp>
+            <success>true</success>
+            <label>true</label>
+            <code>true</code>
+            <message>true</message>
+            <threadName>true</threadName>
+            <dataType>true</dataType>
+            <encoding>false</encoding>
+            <assertions>true</assertions>
+            <subresults>true</subresults>
+            <responseData>false</responseData>
+            <samplerData>false</samplerData>
+            <xml>false</xml>
+            <fieldNames>true</fieldNames>
+            <responseHeaders>false</responseHeaders>
+            <requestHeaders>false</requestHeaders>
+            <responseDataOnError>false</responseDataOnError>
+            <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+            <assertionsResultsToSave>0</assertionsResultsToSave>
+            <bytes>true</bytes>
+            <sentBytes>true</sentBytes>
+            <url>true</url>
+            <threadCounts>true</threadCounts>
+            <idleTime>true</idleTime>
+            <connectTime>true</connectTime>
+          </value>
+        </objProp>
+        <stringProp name="filename"></stringProp>
+      </ResultCollector>
+      <hashTree/>
+    </hashTree>
+  </hashTree>
+</jmeterTestPlan>
