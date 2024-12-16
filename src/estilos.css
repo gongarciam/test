@@ -140,9 +140,15 @@ main {
     border-bottom: 1pt solid black;
 }
 
-.tbl_class1 tr:nth-child(even), .tbl_class2 tr:nth-child(even) {
+.tbl_class1 tr:nth-child(even)  {
     background-color: #f9f9f9;
 }
+
+.tbl_class2 tr:nth-child(even) {
+    background-color: #cacacb;
+}
+
+
 
 .tbl_class1 tbody tr:hover {
     background-color: #eaf2f8;
