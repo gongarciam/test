@@ -293,9 +293,7 @@ input[type="button"].btn_action:disabled {
 input[type="button"].btn_action:disabled {
     transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
 }
-
  
-
 /* Estilo para los cuadros de texto (input[type="text"]) */
 input[type="text"].input_text {
     padding: 6px 12px; /* Espaciado interno */
