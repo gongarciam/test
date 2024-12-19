@@ -1,4 +1,4 @@
 proyecto,id_umbral,umbral_tiempos_transaccion,umbral_p90_transaccion,umbral_error_transaccion,umbral_tiempos_peticion,umbral_p90_peticion,umbral_error_peticion,umbral_tiempos_totales,umbral_p90_totales,umbral_error_totales
-PET_SHOP,1,N/A,N/A,N/A,400,420,2,215,400,3
+PET_SHOP,1,N/A,N/A,N/A,400,420,2,215,N/A,3
 PET_SHOP,2,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
-TRAVEL_DEMO,1,400,600,5,380,400,5,500,600,3
+TRAVEL_DEMO,1,400,600,5,380,3
