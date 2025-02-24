@@ -1,0 +1,26 @@
+Time,Label,Error Code,Error Message,URL
+"2024-12-10 12:51:24",CP01_AC02_Buscar,403,"Unatuhorized",https://petstore.swagger.io/v2/pet/11
+"2024-12-10 12:53:34",CP02_AC01_NuevaMascota,500,"Internal Server error",https://petstore.swagger.io/v2/pet
+"2024-12-10 12:53:57",CP02_AC01_NuevaMascota,500,"Internal Server error",https://petstore.swagger.io/v2/pet
+"2024-12-10 12:55:29",CP02_AC01_NuevaMascota,502,"Internal Server error",https://petstore.swagger.io/v2/pet
+"2024-12-10 12:56:06",CP02_AC01_NuevaMascota,500,"Internal Server error",https://petstore.swagger.io/v2/pet
+"2024-12-10 12:57:14",CP02_AC01_NuevaMascota,500,"Internal Server error",https://petstore.swagger.io/v2/pet
+"2024-12-10 12:57:14",CP02_AC01_NuevaMascota,502,"Internal Server error",https://petstore.swagger.io/v2/pet
+"2024-12-10 12:57:59",CP02_AC01_NuevaMascota,502,"Internal Server error",https://petstore.swagger.io/v2/pet
+"2024-12-10 13:01:44",CP02_AC01_NuevaMascota,500,"Internal Server error",https://petstore.swagger.io/v2/pet
+"2024-12-10 13:02:29",CP02_AC01_NuevaMascota,500,"Internal Server error",https://petstore.swagger.io/v2/pet
+"2024-12-10 13:03:25",CP02_AC01_NuevaMascota,500,"Internal Server error",https://petstore.swagger.io/v2/pet
+"2024-12-10 13:05:09",CP01_AC02_Buscar,403,"Unatuhorized",https://petstore.swagger.io/v2/pet/11
+"2024-12-10 13:06:39",CP01_AC02_Buscar,403,"Unatuhorized",https://petstore.swagger.io/v2/pet/11
+"2024-12-10 13:07:24",CP01_AC02_Buscar,500,"Internal Server error",https://petstore.swagger.io/v2/pet/11
+"2024-12-10 13:08:05",CP01_AC02_Buscar,500,"Internal Server error",https://petstore.swagger.io/v2/pet/11
+"2024-12-10 13:09:00",CP01_AC02_Buscar,500,"Internal Server error",https://petstore.swagger.io/v2/pet/11
+"2024-12-10 13:09:04",CP02_AC01_NuevaMascota,502,"Internal Server error",https://petstore.swagger.io/v2/pet
+"2024-12-10 13:09:14",CP01_AC02_Buscar,403,"Unatuhorized",https://petstore.swagger.io/v2/pet/11
+"2024-12-10 13:09:15",CP01_AC02_Buscar,500,"Internal Server error",https://petstore.swagger.io/v2/pet/11
+"2024-12-10 13:09:49",CP01_AC02_Buscar,500,"Internal Server error",https://petstore.swagger.io/v2/pet/11
+"2024-12-10 13:10:12",CP02_AC01_NuevaMascota,500,"Internal Server error",https://petstore.swagger.io/v2/pet
+"2024-12-10 13:10:24",CP01_AC02_Buscar,403,"Unatuhorized",https://petstore.swagger.io/v2/pet/11
+"2024-12-10 13:13:24",CP02_AC01_NuevaMascota,500,"Internal Server error",https://petstore.swagger.io/v2/pet
+"2024-12-10 13:15:19",CP02_AC01_NuevaMascota,502,"Internal Server error",https://petstore.swagger.io/v2/pet
+"2024-12-10 13:15:40",CP01_AC02_Buscar,403,"Unatuhorized",https://petstore.swagger.io/v2/pet/11
