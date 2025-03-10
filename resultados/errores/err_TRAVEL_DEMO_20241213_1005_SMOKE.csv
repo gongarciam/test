@@ -1,6 +1,0 @@
-Time,Label,Error Code,Error Message,URL
-"2024-12-13 10:11:59",CP03_AC02_Comprar_Vuelo_Confirmacion,502,"Internal Server error",https://blazedemo.com/confirmation.php
-"2024-12-13 10:13:19",CP03_AC02_Comprar_Vuelo_Confirmacion,500,"Internal Server error",https://blazedemo.com/confirmation.php
-"2024-12-13 10:16:19",CP03_AC02_Comprar_Vuelo_Confirmacion,500,"Internal Server error",https://blazedemo.com/confirmation.php
-"2024-12-13 10:18:19",CP03_AC02_Comprar_Vuelo_Confirmacion,502,"Internal Server error",https://blazedemo.com/confirmation.php
-"2024-12-13 10:24:57",CP03_AC02_Comprar_Vuelo_Confirmacion,502,"Internal Server error",https://blazedemo.com/confirmation.php
