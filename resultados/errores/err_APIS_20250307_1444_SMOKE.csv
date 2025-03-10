@@ -1,0 +1,97 @@
+Time,Label,Error Code,Error Message,URL
+"2025-03-07 14:46:40",CP01_AC05_ActualizaObjeto,500,"Internal Server Error",https://api.restful-api.dev/objects/7
+"2025-03-07 14:47:30",CP01_AC05_ActualizaObjeto,502,"Bad Gateway",https://api.restful-api.dev/objects/7
+"2025-03-07 14:48:43",CP01_AC05_ActualizaObjeto,404,"Page Not Found",https://api.restful-api.dev/objects/7
+"2025-03-07 14:48:55",CP01_AC05_ActualizaObjeto,404,"Page Not Found",https://api.restful-api.dev/objects/7
+"2025-03-07 14:49:01",CP01_AC03_BuscaObjeto,400,"Bad Request",https://api.restful-api.dev/objects/7
+"2025-03-07 14:49:20",CP01_AC05_ActualizaObjeto,404,"Page Not Found",https://api.restful-api.dev/objects/7
+"2025-03-07 14:50:15",CP01_AC03_BuscaObjeto,400,"Bad Request",https://api.restful-api.dev/objects/7
+"2025-03-07 14:51:32",CP01_AC05_ActualizaObjeto,404,"Page Not Found",https://api.restful-api.dev/objects/7
+"2025-03-07 14:52:01",CP01_AC05_ActualizaObjeto,403,"Unauthorized",https://api.restful-api.dev/objects/7
+"2025-03-07 14:52:24",CP01_AC03_BuscaObjeto,400,"Bad Request",https://api.restful-api.dev/objects/7
+"2025-03-07 14:52:25",CP01_AC05_ActualizaObjeto,404,"Page Not Found",https://api.restful-api.dev/objects/7
+"2025-03-07 14:52:30",CP01_AC05_ActualizaObjeto,500,"Internal Server Error",https://api.restful-api.dev/objects/7
+"2025-03-07 14:52:46",CP01_AC05_ActualizaObjeto,403,"Unauthorized",https://api.restful-api.dev/objects/7
+"2025-03-07 14:53:14",CP01_AC03_BuscaObjeto,403,"Unauthorized",https://api.restful-api.dev/objects/7
+"2025-03-07 14:53:22",CP01_AC03_BuscaObjeto,400,"Bad Request",https://api.restful-api.dev/objects/7
+"2025-03-07 14:53:26",CP01_AC05_ActualizaObjeto,404,"Page Not Found",https://api.restful-api.dev/objects/7
+"2025-03-07 14:53:45",CP01_AC03_BuscaObjeto,404,"Page Not Found",https://api.restful-api.dev/objects/7
+"2025-03-07 14:53:48",CP01_AC05_ActualizaObjeto,403,"Unauthorized",https://api.restful-api.dev/objects/7
+"2025-03-07 14:53:54",CP01_AC03_BuscaObjeto,500,"Internal Server Error",https://api.restful-api.dev/objects/7
+"2025-03-07 14:54:25",CP01_AC03_BuscaObjeto,404,"Page Not Found",https://api.restful-api.dev/objects/7
+"2025-03-07 14:54:34",CP01_AC03_BuscaObjeto,404,"Page Not Found",https://api.restful-api.dev/objects/7
+"2025-03-07 14:54:36",CP01_AC03_BuscaObjeto,404,"Page Not Found",https://api.restful-api.dev/objects/7
+"2025-03-07 14:54:36",CP01_AC05_ActualizaObjeto,400,"Bad Request",https://api.restful-api.dev/objects/7
+"2025-03-07 14:54:44",CP01_AC05_ActualizaObjeto,500,"Internal Server Error",https://api.restful-api.dev/objects/7
+"2025-03-07 14:55:28",CP01_AC03_BuscaObjeto,403,"Unauthorized",https://api.restful-api.dev/objects/7
+"2025-03-07 14:55:35",CP01_AC05_ActualizaObjeto,500,"Internal Server Error",https://api.restful-api.dev/objects/7
+"2025-03-07 14:55:39",CP01_AC05_ActualizaObjeto,404,"Page Not Found",https://api.restful-api.dev/objects/7
+"2025-03-07 14:55:44",CP01_AC05_ActualizaObjeto,403,"Unauthorized",https://api.restful-api.dev/objects/7
+"2025-03-07 14:55:51",CP01_AC05_ActualizaObjeto,502,"Bad Gateway",https://api.restful-api.dev/objects/7
+"2025-03-07 14:56:03",CP01_AC03_BuscaObjeto,500,"Internal Server Error",https://api.restful-api.dev/objects/7
+"2025-03-07 14:56:29",CP01_AC03_BuscaObjeto,403,"Unauthorized",https://api.restful-api.dev/objects/7
+"2025-03-07 14:57:03",CP01_AC05_ActualizaObjeto,502,"Bad Gateway",https://api.restful-api.dev/objects/7
+"2025-03-07 14:57:22",CP01_AC05_ActualizaObjeto,403,"Unauthorized",https://api.restful-api.dev/objects/7
+"2025-03-07 14:57:29",CP01_AC03_BuscaObjeto,500,"Internal Server Error",https://api.restful-api.dev/objects/7
+"2025-03-07 14:57:31",CP01_AC05_ActualizaObjeto,404,"Page Not Found",https://api.restful-api.dev/objects/7
+"2025-03-07 14:57:31",CP01_AC03_BuscaObjeto,403,"Unauthorized",https://api.restful-api.dev/objects/7
+"2025-03-07 14:57:49",CP01_AC05_ActualizaObjeto,404,"Page Not Found",https://api.restful-api.dev/objects/7
+"2025-03-07 14:58:22",CP01_AC05_ActualizaObjeto,502,"Bad Gateway",https://api.restful-api.dev/objects/7
+"2025-03-07 14:58:29",CP01_AC03_BuscaObjeto,400,"Bad Request",https://api.restful-api.dev/objects/7
+"2025-03-07 14:58:39",CP01_AC05_ActualizaObjeto,400,"Bad Request",https://api.restful-api.dev/objects/7
+"2025-03-07 14:58:52",CP01_AC03_BuscaObjeto,502,"Bad Gateway",https://api.restful-api.dev/objects/7
+"2025-03-07 14:59:07",CP01_AC05_ActualizaObjeto,502,"Bad Gateway",https://api.restful-api.dev/objects/7
+"2025-03-07 14:59:20",CP01_AC03_BuscaObjeto,400,"Bad Request",https://api.restful-api.dev/objects/7
+"2025-03-07 14:59:30",CP01_AC05_ActualizaObjeto,404,"Page Not Found",https://api.restful-api.dev/objects/7
+"2025-03-07 14:59:49",CP01_AC05_ActualizaObjeto,400,"Bad Request",https://api.restful-api.dev/objects/7
+"2025-03-07 14:59:52",CP01_AC05_ActualizaObjeto,403,"Unauthorized",https://api.restful-api.dev/objects/7
+"2025-03-07 14:59:57",CP01_AC03_BuscaObjeto,400,"Bad Request",https://api.restful-api.dev/objects/7
+"2025-03-07 15:00:07",CP01_AC05_ActualizaObjeto,400,"Bad Request",https://api.restful-api.dev/objects/7
+"2025-03-07 15:00:32",CP01_AC03_BuscaObjeto,400,"Bad Request",https://api.restful-api.dev/objects/7
+"2025-03-07 15:00:39",CP01_AC05_ActualizaObjeto,502,"Bad Gateway",https://api.restful-api.dev/objects/7
+"2025-03-07 15:01:03",CP01_AC05_ActualizaObjeto,400,"Bad Request",https://api.restful-api.dev/objects/7
+"2025-03-07 15:01:05",CP01_AC03_BuscaObjeto,500,"Internal Server Error",https://api.restful-api.dev/objects/7
+"2025-03-07 15:01:28",CP01_AC05_ActualizaObjeto,502,"Bad Gateway",https://api.restful-api.dev/objects/7
+"2025-03-07 15:01:58",CP01_AC03_BuscaObjeto,404,"Page Not Found",https://api.restful-api.dev/objects/7
+"2025-03-07 15:02:15",CP01_AC03_BuscaObjeto,403,"Unauthorized",https://api.restful-api.dev/objects/7
+"2025-03-07 15:02:19",CP01_AC03_BuscaObjeto,400,"Bad Request",https://api.restful-api.dev/objects/7
+"2025-03-07 15:02:49",CP01_AC03_BuscaObjeto,502,"Bad Gateway",https://api.restful-api.dev/objects/7
+"2025-03-07 15:03:26",CP01_AC05_ActualizaObjeto,500,"Internal Server Error",https://api.restful-api.dev/objects/7
+"2025-03-07 15:03:59",CP01_AC05_ActualizaObjeto,404,"Page Not Found",https://api.restful-api.dev/objects/7
+"2025-03-07 15:04:18",CP01_AC03_BuscaObjeto,502,"Bad Gateway",https://api.restful-api.dev/objects/7
+"2025-03-07 15:05:26",CP01_AC05_ActualizaObjeto,500,"Internal Server Error",https://api.restful-api.dev/objects/7
+"2025-03-07 15:05:27",CP01_AC05_ActualizaObjeto,502,"Bad Gateway",https://api.restful-api.dev/objects/7
+"2025-03-07 15:05:38",CP01_AC05_ActualizaObjeto,500,"Internal Server Error",https://api.restful-api.dev/objects/7
+"2025-03-07 15:06:00",CP01_AC03_BuscaObjeto,404,"Page Not Found",https://api.restful-api.dev/objects/7
+"2025-03-07 15:06:21",CP01_AC05_ActualizaObjeto,500,"Internal Server Error",https://api.restful-api.dev/objects/7
+"2025-03-07 15:06:30",CP01_AC03_BuscaObjeto,404,"Page Not Found",https://api.restful-api.dev/objects/7
+"2025-03-07 15:06:41",CP01_AC03_BuscaObjeto,400,"Bad Request",https://api.restful-api.dev/objects/7
+"2025-03-07 15:06:43",CP01_AC05_ActualizaObjeto,502,"Bad Gateway",https://api.restful-api.dev/objects/7
+"2025-03-07 15:07:01",CP01_AC05_ActualizaObjeto,500,"Internal Server Error",https://api.restful-api.dev/objects/7
+"2025-03-07 15:07:13",CP01_AC05_ActualizaObjeto,404,"Page Not Found",https://api.restful-api.dev/objects/7
+"2025-03-07 15:07:46",CP01_AC03_BuscaObjeto,500,"Internal Server Error",https://api.restful-api.dev/objects/7
+"2025-03-07 15:07:47",CP01_AC05_ActualizaObjeto,404,"Page Not Found",https://api.restful-api.dev/objects/7
+"2025-03-07 15:08:00",CP01_AC05_ActualizaObjeto,500,"Internal Server Error",https://api.restful-api.dev/objects/7
+"2025-03-07 15:08:17",CP01_AC05_ActualizaObjeto,400,"Bad Request",https://api.restful-api.dev/objects/7
+"2025-03-07 15:08:32",CP01_AC05_ActualizaObjeto,400,"Bad Request",https://api.restful-api.dev/objects/7
+"2025-03-07 15:08:35",CP01_AC05_ActualizaObjeto,400,"Bad Request",https://api.restful-api.dev/objects/7
+"2025-03-07 15:08:43",CP01_AC03_BuscaObjeto,404,"Page Not Found",https://api.restful-api.dev/objects/7
+"2025-03-07 15:08:55",CP01_AC05_ActualizaObjeto,403,"Unauthorized",https://api.restful-api.dev/objects/7
+"2025-03-07 15:09:13",CP01_AC03_BuscaObjeto,403,"Unauthorized",https://api.restful-api.dev/objects/7
+"2025-03-07 15:09:57",CP01_AC05_ActualizaObjeto,403,"Unauthorized",https://api.restful-api.dev/objects/7
+"2025-03-07 15:10:15",CP01_AC03_BuscaObjeto,502,"Bad Gateway",https://api.restful-api.dev/objects/7
+"2025-03-07 15:10:28",CP01_AC03_BuscaObjeto,403,"Unauthorized",https://api.restful-api.dev/objects/7
+"2025-03-07 15:10:45",CP01_AC03_BuscaObjeto,500,"Internal Server Error",https://api.restful-api.dev/objects/7
+"2025-03-07 15:11:00",CP01_AC05_ActualizaObjeto,404,"Page Not Found",https://api.restful-api.dev/objects/7
+"2025-03-07 15:11:22",CP01_AC05_ActualizaObjeto,500,"Internal Server Error",https://api.restful-api.dev/objects/7
+"2025-03-07 15:11:42",CP01_AC05_ActualizaObjeto,502,"Bad Gateway",https://api.restful-api.dev/objects/7
+"2025-03-07 15:11:45",CP01_AC05_ActualizaObjeto,404,"Page Not Found",https://api.restful-api.dev/objects/7
+"2025-03-07 15:12:05",CP01_AC03_BuscaObjeto,400,"Bad Request",https://api.restful-api.dev/objects/7
+"2025-03-07 15:12:13",CP01_AC05_ActualizaObjeto,502,"Bad Gateway",https://api.restful-api.dev/objects/7
+"2025-03-07 15:12:13",CP01_AC03_BuscaObjeto,403,"Unauthorized",https://api.restful-api.dev/objects/7
+"2025-03-07 15:13:00",CP01_AC03_BuscaObjeto,400,"Bad Request",https://api.restful-api.dev/objects/7
+"2025-03-07 15:13:02",CP01_AC05_ActualizaObjeto,502,"Bad Gateway",https://api.restful-api.dev/objects/7
+"2025-03-07 15:13:07",CP01_AC03_BuscaObjeto,500,"Internal Server Error",https://api.restful-api.dev/objects/7
+"2025-03-07 15:13:21",CP01_AC05_ActualizaObjeto,404,"Page Not Found",https://api.restful-api.dev/objects/7
+"2025-03-07 15:13:23",CP01_AC03_BuscaObjeto,400,"Bad Request",https://api.restful-api.dev/objects/7
+"2025-03-07 15:13:57",CP01_AC05_ActualizaObjeto,404,"Page Not Found",https://api.restful-api.dev/objects/7

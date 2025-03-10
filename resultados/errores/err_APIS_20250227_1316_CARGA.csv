@@ -1,0 +1,66 @@
+Time,Label,Error Code,Error Message,URL
+"2025-02-27 13:21:31",CP01_AC04_AddObjecto,502,"Bad Gateway",https://api.restful-api.dev/objects
+"2025-02-27 13:21:34",CP01_AC04_AddObjecto,502,"Bad Gateway",https://api.restful-api.dev/objects
+"2025-02-27 13:23:04",CP01_AC04_AddObjecto,502,"Bad Gateway",https://api.restful-api.dev/objects
+"2025-02-27 13:24:08",CP01_AC04_AddObjecto,500,"Internal Server error",https://api.restful-api.dev/objects
+"2025-02-27 13:24:15",CP01_AC04_AddObjecto,502,"Bad Gateway",https://api.restful-api.dev/objects
+"2025-02-27 13:24:15",CP01_AC04_AddObjecto,502,"Bad Gateway",https://api.restful-api.dev/objects
+"2025-02-27 13:24:16",CP01_AC04_AddObjecto,502,"Bad Gateway",https://api.restful-api.dev/objects
+"2025-02-27 13:24:18",CP01_AC04_AddObjecto,500,"Internal Server error",https://api.restful-api.dev/objects
+"2025-02-27 13:24:33",CP01_AC04_AddObjecto,500,"Internal Server error",https://api.restful-api.dev/objects
+"2025-02-27 13:24:46",CP01_AC04_AddObjecto,502,"Bad Gateway",https://api.restful-api.dev/objects
+"2025-02-27 13:25:14",CP01_AC04_AddObjecto,500,"Internal Server error",https://api.restful-api.dev/objects
+"2025-02-27 13:25:22",CP01_AC04_AddObjecto,502,"Bad Gateway",https://api.restful-api.dev/objects
+"2025-02-27 13:25:26",CP01_AC04_AddObjecto,502,"Bad Gateway",https://api.restful-api.dev/objects
+"2025-02-27 13:26:34",CP01_AC04_AddObjecto,500,"Internal Server error",https://api.restful-api.dev/objects
+"2025-02-27 13:26:55",CP01_AC04_AddObjecto,500,"Internal Server error",https://api.restful-api.dev/objects
+"2025-02-27 13:28:09",CP01_AC04_AddObjecto,500,"Internal Server error",https://api.restful-api.dev/objects
+"2025-02-27 13:28:44",CP01_AC04_AddObjecto,502,"Bad Gateway",https://api.restful-api.dev/objects
+"2025-02-27 13:28:53",CP01_AC04_AddObjecto,500,"Internal Server error",https://api.restful-api.dev/objects
+"2025-02-27 13:28:56",CP01_AC04_AddObjecto,502,"Bad Gateway",https://api.restful-api.dev/objects
+"2025-02-27 13:29:23",CP01_AC04_AddObjecto,502,"Bad Gateway",https://api.restful-api.dev/objects
+"2025-02-27 13:29:35",CP01_AC04_AddObjecto,500,"Internal Server error",https://api.restful-api.dev/objects
+"2025-02-27 13:30:06",CP01_AC04_AddObjecto,502,"Bad Gateway",https://api.restful-api.dev/objects
+"2025-02-27 13:30:34",CP01_AC04_AddObjecto,502,"Bad Gateway",https://api.restful-api.dev/objects
+"2025-02-27 13:30:50",CP01_AC04_AddObjecto,502,"Bad Gateway",https://api.restful-api.dev/objects
+"2025-02-27 13:31:02",CP01_AC04_AddObjecto,500,"Internal Server error",https://api.restful-api.dev/objects
+"2025-02-27 13:31:24",CP01_AC04_AddObjecto,502,"Bad Gateway",https://api.restful-api.dev/objects
+"2025-02-27 13:31:35",CP01_AC04_AddObjecto,500,"Internal Server error",https://api.restful-api.dev/objects
+"2025-02-27 13:31:47",CP01_AC04_AddObjecto,500,"Internal Server error",https://api.restful-api.dev/objects
+"2025-02-27 13:31:57",CP01_AC04_AddObjecto,500,"Internal Server error",https://api.restful-api.dev/objects
+"2025-02-27 13:32:08",CP01_AC04_AddObjecto,502,"Bad Gateway",https://api.restful-api.dev/objects
+"2025-02-27 13:32:09",CP01_AC04_AddObjecto,502,"Bad Gateway",https://api.restful-api.dev/objects
+"2025-02-27 13:32:38",CP01_AC04_AddObjecto,502,"Bad Gateway",https://api.restful-api.dev/objects
+"2025-02-27 13:32:43",CP01_AC04_AddObjecto,502,"Bad Gateway",https://api.restful-api.dev/objects
+"2025-02-27 13:32:51",CP01_AC04_AddObjecto,500,"Internal Server error",https://api.restful-api.dev/objects
+"2025-02-27 13:33:42",CP01_AC04_AddObjecto,502,"Bad Gateway",https://api.restful-api.dev/objects
+"2025-02-27 13:33:57",CP01_AC04_AddObjecto,502,"Bad Gateway",https://api.restful-api.dev/objects
+"2025-02-27 13:35:15",CP01_AC04_AddObjecto,500,"Internal Server error",https://api.restful-api.dev/objects
+"2025-02-27 13:35:23",CP01_AC04_AddObjecto,500,"Internal Server error",https://api.restful-api.dev/objects
+"2025-02-27 13:35:32",CP01_AC04_AddObjecto,502,"Bad Gateway",https://api.restful-api.dev/objects
+"2025-02-27 13:35:53",CP01_AC04_AddObjecto,502,"Bad Gateway",https://api.restful-api.dev/objects
+"2025-02-27 13:36:27",CP01_AC04_AddObjecto,500,"Internal Server error",https://api.restful-api.dev/objects
+"2025-02-27 13:36:29",CP01_AC04_AddObjecto,502,"Bad Gateway",https://api.restful-api.dev/objects
+"2025-02-27 13:36:35",CP01_AC04_AddObjecto,502,"Bad Gateway",https://api.restful-api.dev/objects
+"2025-02-27 13:36:50",CP01_AC04_AddObjecto,500,"Internal Server error",https://api.restful-api.dev/objects
+"2025-02-27 13:38:05",CP01_AC04_AddObjecto,502,"Bad Gateway",https://api.restful-api.dev/objects
+"2025-02-27 13:38:52",CP01_AC04_AddObjecto,502,"Bad Gateway",https://api.restful-api.dev/objects
+"2025-02-27 13:41:14",CP01_AC04_AddObjecto,502,"Bad Gateway",https://api.restful-api.dev/objects
+"2025-02-27 13:41:15",CP01_AC04_AddObjecto,500,"Internal Server error",https://api.restful-api.dev/objects
+"2025-02-27 13:41:29",CP01_AC04_AddObjecto,502,"Bad Gateway",https://api.restful-api.dev/objects
+"2025-02-27 13:41:49",CP01_AC04_AddObjecto,502,"Bad Gateway",https://api.restful-api.dev/objects
+"2025-02-27 13:41:55",CP01_AC04_AddObjecto,502,"Bad Gateway",https://api.restful-api.dev/objects
+"2025-02-27 13:42:41",CP01_AC04_AddObjecto,502,"Bad Gateway",https://api.restful-api.dev/objects
+"2025-02-27 13:43:27",CP01_AC04_AddObjecto,502,"Bad Gateway",https://api.restful-api.dev/objects
+"2025-02-27 13:44:07",CP01_AC04_AddObjecto,502,"Bad Gateway",https://api.restful-api.dev/objects
+"2025-02-27 13:44:20",CP01_AC04_AddObjecto,500,"Internal Server error",https://api.restful-api.dev/objects
+"2025-02-27 13:44:20",CP01_AC04_AddObjecto,502,"Bad Gateway",https://api.restful-api.dev/objects
+"2025-02-27 13:44:56",CP01_AC04_AddObjecto,500,"Internal Server error",https://api.restful-api.dev/objects
+"2025-02-27 13:45:31",CP01_AC04_AddObjecto,502,"Bad Gateway",https://api.restful-api.dev/objects
+"2025-02-27 13:45:42",CP01_AC04_AddObjecto,502,"Bad Gateway",https://api.restful-api.dev/objects
+"2025-02-27 13:45:46",CP01_AC04_AddObjecto,500,"Internal Server error",https://api.restful-api.dev/objects
+"2025-02-27 13:45:51",CP01_AC04_AddObjecto,500,"Internal Server error",https://api.restful-api.dev/objects
+"2025-02-27 13:45:54",CP01_AC04_AddObjecto,502,"Bad Gateway",https://api.restful-api.dev/objects
+"2025-02-27 13:45:55",CP01_AC04_AddObjecto,502,"Bad Gateway",https://api.restful-api.dev/objects
+"2025-02-27 13:46:27",CP01_AC04_AddObjecto,500,"Internal Server error",https://api.restful-api.dev/objects
+"2025-02-27 13:46:31",CP01_AC04_AddObjecto,502,"Bad Gateway",https://api.restful-api.dev/objects

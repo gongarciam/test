@@ -1,0 +1,110 @@
+Time,Label,Error Code,Error Message,URL
+"2024-12-09 09:43:35",CP01_AC02_Buscar,500,"Internal Server error",https://petstore.swagger.io/v2/pet/1233
+"2024-12-09 09:43:59",CP01_AC02_Buscar,403,"Unatuhorized",https://petstore.swagger.io/v2/pet/1233
+"2024-12-09 09:44:35",CP02_AC01_NuevaMascota,500,"Internal Server error",https://petstore.swagger.io/v2/pet
+"2024-12-09 09:44:51",CP01_AC02_Buscar,500,"Internal Server error",https://petstore.swagger.io/v2/pet/1233
+"2024-12-09 09:45:27",CP02_AC01_NuevaMascota,502,"Internal Server error",https://petstore.swagger.io/v2/pet
+"2024-12-09 09:45:30",CP01_AC02_Buscar,500,"Internal Server error",https://petstore.swagger.io/v2/pet/1233
+"2024-12-09 09:45:44",CP01_AC01_Inventario,500,"Internal Server error",https://petstore.swagger.io/v2/store/inventory
+"2024-12-09 09:45:47",CP01_AC02_Buscar,403,"Unatuhorized",https://petstore.swagger.io/v2/pet/1233
+"2024-12-09 09:46:23",CP01_AC02_Buscar,403,"Unatuhorized",https://petstore.swagger.io/v2/pet/1233
+"2024-12-09 09:46:23",CP02_AC01_NuevaMascota,500,"Internal Server error",https://petstore.swagger.io/v2/pet
+"2024-12-09 09:46:26",CP01_AC02_Buscar,403,"Unatuhorized",https://petstore.swagger.io/v2/pet/1233
+"2024-12-09 09:46:29",CP02_AC01_NuevaMascota,500,"Internal Server error",https://petstore.swagger.io/v2/pet
+"2024-12-09 09:46:29",CP01_AC02_Buscar,403,"Unatuhorized",https://petstore.swagger.io/v2/pet/1233
+"2024-12-09 09:46:39",CP02_AC01_NuevaMascota,502,"Internal Server error",https://petstore.swagger.io/v2/pet
+"2024-12-09 09:46:53",CP02_AC01_NuevaMascota,502,"Internal Server error",https://petstore.swagger.io/v2/pet
+"2024-12-09 09:48:00",CP01_AC02_Buscar,500,"Internal Server error",https://petstore.swagger.io/v2/pet/1233
+"2024-12-09 09:48:14",CP02_AC01_NuevaMascota,500,"Internal Server error",https://petstore.swagger.io/v2/pet
+"2024-12-09 09:48:47",CP01_AC02_Buscar,403,"Unatuhorized",https://petstore.swagger.io/v2/pet/1233
+"2024-12-09 09:49:11",CP01_AC02_Buscar,403,"Unatuhorized",https://petstore.swagger.io/v2/pet/1233
+"2024-12-09 09:49:50",CP01_AC02_Buscar,500,"Internal Server error",https://petstore.swagger.io/v2/pet/1233
+"2024-12-09 09:49:56",CP02_AC01_NuevaMascota,500,"Internal Server error",https://petstore.swagger.io/v2/pet
+"2024-12-09 09:50:23",CP01_AC02_Buscar,403,"Unatuhorized",https://petstore.swagger.io/v2/pet/1233
+"2024-12-09 09:50:48",CP01_AC02_Buscar,500,"Internal Server error",https://petstore.swagger.io/v2/pet/1233
+"2024-12-09 09:50:59",CP01_AC02_Buscar,500,"Internal Server error",https://petstore.swagger.io/v2/pet/1233
+"2024-12-09 09:51:19",CP02_AC01_NuevaMascota,502,"Internal Server error",https://petstore.swagger.io/v2/pet
+"2024-12-09 09:52:17",CP01_AC02_Buscar,500,"Internal Server error",https://petstore.swagger.io/v2/pet/1233
+"2024-12-09 09:52:41",CP01_AC02_Buscar,403,"Unatuhorized",https://petstore.swagger.io/v2/pet/1233
+"2024-12-09 09:53:11",CP01_AC02_Buscar,403,"Unatuhorized",https://petstore.swagger.io/v2/pet/1233
+"2024-12-09 09:53:53",CP01_AC02_Buscar,403,"Unatuhorized",https://petstore.swagger.io/v2/pet/1233
+"2024-12-09 09:53:58",CP01_AC02_Buscar,403,"Unatuhorized",https://petstore.swagger.io/v2/pet/1233
+"2024-12-09 09:54:00",CP01_AC01_Inventario,502,"Internal Server error",https://petstore.swagger.io/v2/store/inventory
+"2024-12-09 09:54:29",CP02_AC01_NuevaMascota,502,"Internal Server error",https://petstore.swagger.io/v2/pet
+"2024-12-09 09:54:30",CP02_AC01_NuevaMascota,502,"Internal Server error",https://petstore.swagger.io/v2/pet
+"2024-12-09 09:54:38",CP02_AC01_NuevaMascota,500,"Internal Server error",https://petstore.swagger.io/v2/pet
+"2024-12-09 09:55:05",CP01_AC01_Inventario,500,"Internal Server error",https://petstore.swagger.io/v2/store/inventory
+"2024-12-09 09:55:34",CP01_AC02_Buscar,500,"Internal Server error",https://petstore.swagger.io/v2/pet/1233
+"2024-12-09 09:55:47",CP02_AC01_NuevaMascota,502,"Internal Server error",https://petstore.swagger.io/v2/pet
+"2024-12-09 09:55:47",CP01_AC02_Buscar,500,"Internal Server error",https://petstore.swagger.io/v2/pet/1233
+"2024-12-09 09:55:50",CP02_AC01_NuevaMascota,502,"Internal Server error",https://petstore.swagger.io/v2/pet
+"2024-12-09 09:56:17",CP02_AC01_NuevaMascota,500,"Internal Server error",https://petstore.swagger.io/v2/pet
+"2024-12-09 09:56:20",CP01_AC02_Buscar,403,"Unatuhorized",https://petstore.swagger.io/v2/pet/1233
+"2024-12-09 09:56:23",CP02_AC01_NuevaMascota,502,"Internal Server error",https://petstore.swagger.io/v2/pet
+"2024-12-09 09:56:59",CP02_AC01_NuevaMascota,500,"Internal Server error",https://petstore.swagger.io/v2/pet
+"2024-12-09 09:57:17",CP01_AC02_Buscar,500,"Internal Server error",https://petstore.swagger.io/v2/pet/1233
+"2024-12-09 09:57:41",CP01_AC02_Buscar,403,"Unatuhorized",https://petstore.swagger.io/v2/pet/1233
+"2024-12-09 09:57:55",CP02_AC01_NuevaMascota,500,"Internal Server error",https://petstore.swagger.io/v2/pet
+"2024-12-09 09:57:56",CP01_AC02_Buscar,403,"Unatuhorized",https://petstore.swagger.io/v2/pet/1233
+"2024-12-09 09:59:10",CP02_AC01_NuevaMascota,502,"Internal Server error",https://petstore.swagger.io/v2/pet
+"2024-12-09 09:59:14",CP01_AC02_Buscar,500,"Internal Server error",https://petstore.swagger.io/v2/pet/1233
+"2024-12-09 09:59:29",CP01_AC02_Buscar,403,"Unatuhorized",https://petstore.swagger.io/v2/pet/1233
+"2024-12-09 09:59:53",CP02_AC01_NuevaMascota,500,"Internal Server error",https://petstore.swagger.io/v2/pet
+"2024-12-09 09:59:55",CP01_AC01_Inventario,502,"Internal Server error",https://petstore.swagger.io/v2/store/inventory
+"2024-12-09 10:00:12",CP01_AC01_Inventario,500,"Internal Server error",https://petstore.swagger.io/v2/store/inventory
+"2024-12-09 10:00:19",CP01_AC02_Buscar,403,"Unatuhorized",https://petstore.swagger.io/v2/pet/1233
+"2024-12-09 10:00:36",CP01_AC02_Buscar,403,"Unatuhorized",https://petstore.swagger.io/v2/pet/1233
+"2024-12-09 10:00:56",CP02_AC01_NuevaMascota,500,"Internal Server error",https://petstore.swagger.io/v2/pet
+"2024-12-09 10:01:11",CP02_AC01_NuevaMascota,502,"Internal Server error",https://petstore.swagger.io/v2/pet
+"2024-12-09 10:01:16",CP01_AC02_Buscar,500,"Internal Server error",https://petstore.swagger.io/v2/pet/1233
+"2024-12-09 10:01:17",CP02_AC01_NuevaMascota,500,"Internal Server error",https://petstore.swagger.io/v2/pet
+"2024-12-09 10:01:20",CP01_AC02_Buscar,500,"Internal Server error",https://petstore.swagger.io/v2/pet/1233
+"2024-12-09 10:01:41",CP02_AC01_NuevaMascota,502,"Internal Server error",https://petstore.swagger.io/v2/pet
+"2024-12-09 10:01:47",CP02_AC01_NuevaMascota,502,"Internal Server error",https://petstore.swagger.io/v2/pet
+"2024-12-09 10:01:47",CP02_AC01_NuevaMascota,500,"Internal Server error",https://petstore.swagger.io/v2/pet
+"2024-12-09 10:01:48",CP02_AC01_NuevaMascota,500,"Internal Server error",https://petstore.swagger.io/v2/pet
+"2024-12-09 10:02:15",CP02_AC01_NuevaMascota,502,"Internal Server error",https://petstore.swagger.io/v2/pet
+"2024-12-09 10:02:29",CP02_AC01_NuevaMascota,500,"Internal Server error",https://petstore.swagger.io/v2/pet
+"2024-12-09 10:02:29",CP02_AC01_NuevaMascota,502,"Internal Server error",https://petstore.swagger.io/v2/pet
+"2024-12-09 10:02:34",CP01_AC02_Buscar,403,"Unatuhorized",https://petstore.swagger.io/v2/pet/1233
+"2024-12-09 10:02:47",CP01_AC02_Buscar,403,"Unatuhorized",https://petstore.swagger.io/v2/pet/1233
+"2024-12-09 10:03:00",CP02_AC01_NuevaMascota,502,"Internal Server error",https://petstore.swagger.io/v2/pet
+"2024-12-09 10:03:11",CP01_AC02_Buscar,403,"Unatuhorized",https://petstore.swagger.io/v2/pet/1233
+"2024-12-09 10:03:29",CP02_AC01_NuevaMascota,500,"Internal Server error",https://petstore.swagger.io/v2/pet
+"2024-12-09 10:03:29",CP02_AC01_NuevaMascota,502,"Internal Server error",https://petstore.swagger.io/v2/pet
+"2024-12-09 10:03:41",CP01_AC01_Inventario,502,"Internal Server error",https://petstore.swagger.io/v2/store/inventory
+"2024-12-09 10:04:06",CP02_AC01_NuevaMascota,502,"Internal Server error",https://petstore.swagger.io/v2/pet
+"2024-12-09 10:04:11",CP02_AC01_NuevaMascota,502,"Internal Server error",https://petstore.swagger.io/v2/pet
+"2024-12-09 10:04:17",CP01_AC01_Inventario,502,"Internal Server error",https://petstore.swagger.io/v2/store/inventory
+"2024-12-09 10:04:19",CP01_AC02_Buscar,500,"Internal Server error",https://petstore.swagger.io/v2/pet/1233
+"2024-12-09 10:04:40",CP01_AC02_Buscar,403,"Unatuhorized",https://petstore.swagger.io/v2/pet/1233
+"2024-12-09 10:04:41",CP01_AC02_Buscar,403,"Unatuhorized",https://petstore.swagger.io/v2/pet/1233
+"2024-12-09 10:04:47",CP02_AC01_NuevaMascota,502,"Internal Server error",https://petstore.swagger.io/v2/pet
+"2024-12-09 10:05:59",CP02_AC01_NuevaMascota,500,"Internal Server error",https://petstore.swagger.io/v2/pet
+"2024-12-09 10:07:11",CP01_AC02_Buscar,403,"Unatuhorized",https://petstore.swagger.io/v2/pet/1233
+"2024-12-09 10:07:14",CP01_AC01_Inventario,502,"Internal Server error",https://petstore.swagger.io/v2/store/inventory
+"2024-12-09 10:08:12",CP01_AC02_Buscar,403,"Unatuhorized",https://petstore.swagger.io/v2/pet/1233
+"2024-12-09 10:08:17",CP01_AC02_Buscar,500,"Internal Server error",https://petstore.swagger.io/v2/pet/1233
+"2024-12-09 10:08:23",CP02_AC01_NuevaMascota,502,"Internal Server error",https://petstore.swagger.io/v2/pet
+"2024-12-09 10:08:50",CP01_AC02_Buscar,500,"Internal Server error",https://petstore.swagger.io/v2/pet/1233
+"2024-12-09 10:09:14",CP01_AC02_Buscar,500,"Internal Server error",https://petstore.swagger.io/v2/pet/1233
+"2024-12-09 10:09:18",CP01_AC02_Buscar,403,"Unatuhorized",https://petstore.swagger.io/v2/pet/1233
+"2024-12-09 10:09:35",CP02_AC01_NuevaMascota,500,"Internal Server error",https://petstore.swagger.io/v2/pet
+"2024-12-09 10:09:47",CP02_AC01_NuevaMascota,502,"Internal Server error",https://petstore.swagger.io/v2/pet
+"2024-12-09 10:09:47",CP01_AC01_Inventario,500,"Internal Server error",https://petstore.swagger.io/v2/store/inventory
+"2024-12-09 10:09:53",CP01_AC02_Buscar,403,"Unatuhorized",https://petstore.swagger.io/v2/pet/1233
+"2024-12-09 10:10:08",CP01_AC02_Buscar,500,"Internal Server error",https://petstore.swagger.io/v2/pet/1233
+"2024-12-09 10:10:12",CP01_AC01_Inventario,500,"Internal Server error",https://petstore.swagger.io/v2/store/inventory
+"2024-12-09 10:10:15",CP01_AC01_Inventario,500,"Internal Server error",https://petstore.swagger.io/v2/store/inventory
+"2024-12-09 10:10:17",CP01_AC02_Buscar,403,"Unatuhorized",https://petstore.swagger.io/v2/pet/1233
+"2024-12-09 10:10:29",CP01_AC02_Buscar,500,"Internal Server error",https://petstore.swagger.io/v2/pet/1233
+"2024-12-09 10:10:55",CP02_AC01_NuevaMascota,500,"Internal Server error",https://petstore.swagger.io/v2/pet
+"2024-12-09 10:11:10",CP01_AC01_Inventario,502,"Internal Server error",https://petstore.swagger.io/v2/store/inventory
+"2024-12-09 10:11:11",CP01_AC02_Buscar,500,"Internal Server error",https://petstore.swagger.io/v2/pet/1233
+"2024-12-09 10:11:15",CP01_AC02_Buscar,403,"Unatuhorized",https://petstore.swagger.io/v2/pet/1233
+"2024-12-09 10:11:17",CP01_AC02_Buscar,403,"Unatuhorized",https://petstore.swagger.io/v2/pet/1233
+"2024-12-09 10:11:35",CP01_AC02_Buscar,403,"Unatuhorized",https://petstore.swagger.io/v2/pet/1233
+"2024-12-09 10:11:46",CP02_AC01_NuevaMascota,500,"Internal Server error",https://petstore.swagger.io/v2/pet
+"2024-12-09 10:12:15",CP01_AC02_Buscar,403,"Unatuhorized",https://petstore.swagger.io/v2/pet/1233
+"2024-12-09 10:12:47",CP02_AC01_NuevaMascota,502,"Internal Server error",https://petstore.swagger.io/v2/pet
+"2024-12-09 10:13:11",CP02_AC01_NuevaMascota,502,"Internal Server error",https://petstore.swagger.io/v2/pet

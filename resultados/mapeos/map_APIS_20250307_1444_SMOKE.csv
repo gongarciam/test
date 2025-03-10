@@ -1,0 +1,6 @@
+Label,URL
+CP01_AC01_Lista,https://api.restful-api.dev/objects
+CP01_AC02_ListaObjetos,https://api.restful-api.dev/objects?id=NOT_FOUND&id=NOT_FOUND
+CP01_AC03_BuscaObjeto,https://api.restful-api.dev/objects/7
+CP01_AC04_AddObjecto,https://api.restful-api.dev/objects
+CP01_AC05_ActualizaObjeto,https://api.restful-api.dev/objects/7
