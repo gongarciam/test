@@ -1,5 +1,0 @@
-Label,Samples,Minimum,Maximum,Average,P90,Standard Deviation,Error,%Error,Throughput
-CP01_AC01_Inventario,1329,352,1346,385,423,50,0,0.00,0.74
-CP01_AC02_Buscar,1326,86,945,95,103,27,10,0.75,0.74
-CP02_AC01_NuevaMascota,1310,87,467,104,114,15,10,0.76,0.73
-Total,3965,86,1346,195,213,31,20,0.50,2.21
