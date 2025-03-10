@@ -1,0 +1,61 @@
+Time,Label,Error Code,Error Message,URL
+"2025-03-10 16:43:52",CP02_AC01_NuevaMascota,404,"Page Not Found",https://petstore.swagger.io/v2/pet
+"2025-03-10 16:44:07",CP02_AC01_NuevaMascota,500,"Internal Server Error",https://petstore.swagger.io/v2/pet
+"2025-03-10 16:44:22",CP02_AC01_NuevaMascota,400,"Bad Request",https://petstore.swagger.io/v2/pet
+"2025-03-10 16:45:04",CP02_AC01_NuevaMascota,400,"Bad Request",https://petstore.swagger.io/v2/pet
+"2025-03-10 16:45:22",CP02_AC01_NuevaMascota,403,"Unauthorized",https://petstore.swagger.io/v2/pet
+"2025-03-10 16:45:41",CP02_AC01_NuevaMascota,403,"Unauthorized",https://petstore.swagger.io/v2/pet
+"2025-03-10 16:45:51",CP02_AC01_NuevaMascota,403,"Unauthorized",https://petstore.swagger.io/v2/pet
+"2025-03-10 16:46:16",CP02_AC01_NuevaMascota,404,"Page Not Found",https://petstore.swagger.io/v2/pet
+"2025-03-10 16:46:41",CP02_AC01_NuevaMascota,400,"Bad Request",https://petstore.swagger.io/v2/pet
+"2025-03-10 16:46:46",CP02_AC01_NuevaMascota,404,"Page Not Found",https://petstore.swagger.io/v2/pet
+"2025-03-10 16:46:51",CP02_AC01_NuevaMascota,502,"Bad Gateway",https://petstore.swagger.io/v2/pet
+"2025-03-10 16:47:04",CP02_AC01_NuevaMascota,400,"Bad Request",https://petstore.swagger.io/v2/pet
+"2025-03-10 16:47:32",CP02_AC01_NuevaMascota,400,"Bad Request",https://petstore.swagger.io/v2/pet
+"2025-03-10 16:47:48",CP02_AC01_NuevaMascota,500,"Internal Server Error",https://petstore.swagger.io/v2/pet
+"2025-03-10 16:47:59",CP02_AC01_NuevaMascota,403,"Unauthorized",https://petstore.swagger.io/v2/pet
+"2025-03-10 16:48:35",CP02_AC01_NuevaMascota,403,"Unauthorized",https://petstore.swagger.io/v2/pet
+"2025-03-10 16:48:38",CP02_AC01_NuevaMascota,500,"Internal Server Error",https://petstore.swagger.io/v2/pet
+"2025-03-10 16:49:02",CP02_AC01_NuevaMascota,403,"Unauthorized",https://petstore.swagger.io/v2/pet
+"2025-03-10 16:49:05",CP02_AC01_NuevaMascota,500,"Internal Server Error",https://petstore.swagger.io/v2/pet
+"2025-03-10 16:49:20",CP02_AC01_NuevaMascota,403,"Unauthorized",https://petstore.swagger.io/v2/pet
+"2025-03-10 16:50:33",CP02_AC01_NuevaMascota,403,"Unauthorized",https://petstore.swagger.io/v2/pet
+"2025-03-10 16:54:02",CP02_AC01_NuevaMascota,500,"Internal Server Error",https://petstore.swagger.io/v2/pet
+"2025-03-10 16:54:42",CP02_AC01_NuevaMascota,403,"Unauthorized",https://petstore.swagger.io/v2/pet
+"2025-03-10 16:54:48",CP02_AC01_NuevaMascota,502,"Bad Gateway",https://petstore.swagger.io/v2/pet
+"2025-03-10 16:54:54",CP02_AC01_NuevaMascota,400,"Bad Request",https://petstore.swagger.io/v2/pet
+"2025-03-10 16:56:06",CP02_AC01_NuevaMascota,500,"Internal Server Error",https://petstore.swagger.io/v2/pet
+"2025-03-10 16:56:57",CP02_AC01_NuevaMascota,403,"Unauthorized",https://petstore.swagger.io/v2/pet
+"2025-03-10 16:57:02",CP02_AC01_NuevaMascota,502,"Bad Gateway",https://petstore.swagger.io/v2/pet
+"2025-03-10 16:57:12",CP02_AC01_NuevaMascota,502,"Bad Gateway",https://petstore.swagger.io/v2/pet
+"2025-03-10 16:57:21",CP02_AC01_NuevaMascota,502,"Bad Gateway",https://petstore.swagger.io/v2/pet
+"2025-03-10 16:57:23",CP02_AC01_NuevaMascota,403,"Unauthorized",https://petstore.swagger.io/v2/pet
+"2025-03-10 16:57:28",CP02_AC01_NuevaMascota,403,"Unauthorized",https://petstore.swagger.io/v2/pet
+"2025-03-10 16:57:56",CP02_AC01_NuevaMascota,502,"Bad Gateway",https://petstore.swagger.io/v2/pet
+"2025-03-10 16:58:15",CP02_AC01_NuevaMascota,400,"Bad Request",https://petstore.swagger.io/v2/pet
+"2025-03-10 16:58:33",CP02_AC01_NuevaMascota,502,"Bad Gateway",https://petstore.swagger.io/v2/pet
+"2025-03-10 16:58:33",CP02_AC01_NuevaMascota,400,"Bad Request",https://petstore.swagger.io/v2/pet
+"2025-03-10 16:58:43",CP02_AC01_NuevaMascota,500,"Internal Server Error",https://petstore.swagger.io/v2/pet
+"2025-03-10 16:58:59",CP02_AC01_NuevaMascota,403,"Unauthorized",https://petstore.swagger.io/v2/pet
+"2025-03-10 16:59:12",CP02_AC01_NuevaMascota,400,"Bad Request",https://petstore.swagger.io/v2/pet
+"2025-03-10 16:59:26",CP02_AC01_NuevaMascota,502,"Bad Gateway",https://petstore.swagger.io/v2/pet
+"2025-03-10 16:59:28",CP02_AC01_NuevaMascota,500,"Internal Server Error",https://petstore.swagger.io/v2/pet
+"2025-03-10 16:59:46",CP02_AC01_NuevaMascota,400,"Bad Request",https://petstore.swagger.io/v2/pet
+"2025-03-10 17:00:19",CP02_AC01_NuevaMascota,502,"Bad Gateway",https://petstore.swagger.io/v2/pet
+"2025-03-10 17:03:34",CP02_AC01_NuevaMascota,403,"Unauthorized",https://petstore.swagger.io/v2/pet
+"2025-03-10 17:03:52",CP02_AC01_NuevaMascota,404,"Page Not Found",https://petstore.swagger.io/v2/pet
+"2025-03-10 17:03:59",CP02_AC01_NuevaMascota,404,"Page Not Found",https://petstore.swagger.io/v2/pet
+"2025-03-10 17:04:56",CP02_AC01_NuevaMascota,404,"Page Not Found",https://petstore.swagger.io/v2/pet
+"2025-03-10 17:05:31",CP02_AC01_NuevaMascota,500,"Internal Server Error",https://petstore.swagger.io/v2/pet
+"2025-03-10 17:06:01",CP02_AC01_NuevaMascota,403,"Unauthorized",https://petstore.swagger.io/v2/pet
+"2025-03-10 17:06:06",CP02_AC01_NuevaMascota,502,"Bad Gateway",https://petstore.swagger.io/v2/pet
+"2025-03-10 17:06:20",CP02_AC01_NuevaMascota,400,"Bad Request",https://petstore.swagger.io/v2/pet
+"2025-03-10 17:07:06",CP02_AC01_NuevaMascota,403,"Unauthorized",https://petstore.swagger.io/v2/pet
+"2025-03-10 17:07:49",CP02_AC01_NuevaMascota,400,"Bad Request",https://petstore.swagger.io/v2/pet
+"2025-03-10 17:08:47",CP02_AC01_NuevaMascota,403,"Unauthorized",https://petstore.swagger.io/v2/pet
+"2025-03-10 17:09:42",CP02_AC01_NuevaMascota,403,"Unauthorized",https://petstore.swagger.io/v2/pet
+"2025-03-10 17:10:00",CP02_AC01_NuevaMascota,403,"Unauthorized",https://petstore.swagger.io/v2/pet
+"2025-03-10 17:10:37",CP02_AC01_NuevaMascota,502,"Bad Gateway",https://petstore.swagger.io/v2/pet
+"2025-03-10 17:10:40",CP02_AC01_NuevaMascota,500,"Internal Server Error",https://petstore.swagger.io/v2/pet
+"2025-03-10 17:10:52",CP02_AC01_NuevaMascota,404,"Page Not Found",https://petstore.swagger.io/v2/pet
+"2025-03-10 17:11:16",CP02_AC01_NuevaMascota,404,"Page Not Found",https://petstore.swagger.io/v2/pet

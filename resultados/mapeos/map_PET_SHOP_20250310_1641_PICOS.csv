@@ -1,0 +1,4 @@
+Label,URL
+CP01_AC01_Inventario,https://petstore.swagger.io/v2/store/inventory
+CP01_AC02_Buscar,https://petstore.swagger.io/v2/pet/10
+CP02_AC01_NuevaMascota,https://petstore.swagger.io/v2/pet
