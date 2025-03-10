@@ -1,0 +1,98 @@
+Time,Label,Error Code,Error Message,URL
+"2025-03-10 16:42:05",CP03_AC01_Comprar_Vuelo_Pursache,400,"Bad Request",https://blazedemo.com/purchase.php
+"2025-03-10 16:42:32",CP03_AC01_Comprar_Vuelo_Pursache,502,"Bad Gateway",https://blazedemo.com/purchase.php
+"2025-03-10 16:42:46",CP03_AC01_Comprar_Vuelo_Pursache,403,"Unauthorized",https://blazedemo.com/purchase.php
+"2025-03-10 16:43:23",CP03_AC02_Comprar_Vuelo_Confirmacion,404,"Page Not Found",https://blazedemo.com/confirmation.php
+"2025-03-10 16:44:07",CP03_AC02_Comprar_Vuelo_Confirmacion,502,"Bad Gateway",https://blazedemo.com/confirmation.php
+"2025-03-10 16:44:12",CP03_AC02_Comprar_Vuelo_Confirmacion,500,"Internal Server Error",https://blazedemo.com/confirmation.php
+"2025-03-10 16:44:32",CP03_AC01_Comprar_Vuelo_Pursache,400,"Bad Request",https://blazedemo.com/purchase.php
+"2025-03-10 16:45:08",CP03_AC01_Comprar_Vuelo_Pursache,400,"Bad Request",https://blazedemo.com/purchase.php
+"2025-03-10 16:45:14",CP03_AC01_Comprar_Vuelo_Pursache,403,"Unauthorized",https://blazedemo.com/purchase.php
+"2025-03-10 16:46:09",CP03_AC01_Comprar_Vuelo_Pursache,500,"Internal Server Error",https://blazedemo.com/purchase.php
+"2025-03-10 16:46:31",CP03_AC01_Comprar_Vuelo_Pursache,403,"Unauthorized",https://blazedemo.com/purchase.php
+"2025-03-10 16:46:36",CP03_AC01_Comprar_Vuelo_Pursache,500,"Internal Server Error",https://blazedemo.com/purchase.php
+"2025-03-10 16:47:00",CP03_AC02_Comprar_Vuelo_Confirmacion,502,"Bad Gateway",https://blazedemo.com/confirmation.php
+"2025-03-10 16:47:06",CP03_AC02_Comprar_Vuelo_Confirmacion,404,"Page Not Found",https://blazedemo.com/confirmation.php
+"2025-03-10 16:47:34",CP03_AC01_Comprar_Vuelo_Pursache,500,"Internal Server Error",https://blazedemo.com/purchase.php
+"2025-03-10 16:47:45",CP03_AC02_Comprar_Vuelo_Confirmacion,502,"Bad Gateway",https://blazedemo.com/confirmation.php
+"2025-03-10 16:47:46",CP03_AC01_Comprar_Vuelo_Pursache,500,"Internal Server Error",https://blazedemo.com/purchase.php
+"2025-03-10 16:47:55",CP03_AC01_Comprar_Vuelo_Pursache,500,"Internal Server Error",https://blazedemo.com/purchase.php
+"2025-03-10 16:49:09",CP03_AC02_Comprar_Vuelo_Confirmacion,404,"Page Not Found",https://blazedemo.com/confirmation.php
+"2025-03-10 16:49:17",CP03_AC02_Comprar_Vuelo_Confirmacion,400,"Bad Request",https://blazedemo.com/confirmation.php
+"2025-03-10 16:49:34",CP03_AC02_Comprar_Vuelo_Confirmacion,400,"Bad Request",https://blazedemo.com/confirmation.php
+"2025-03-10 16:49:37",CP03_AC01_Comprar_Vuelo_Pursache,502,"Bad Gateway",https://blazedemo.com/purchase.php
+"2025-03-10 16:49:40",CP03_AC02_Comprar_Vuelo_Confirmacion,500,"Internal Server Error",https://blazedemo.com/confirmation.php
+"2025-03-10 16:49:50",CP03_AC02_Comprar_Vuelo_Confirmacion,502,"Bad Gateway",https://blazedemo.com/confirmation.php
+"2025-03-10 16:50:09",CP03_AC02_Comprar_Vuelo_Confirmacion,404,"Page Not Found",https://blazedemo.com/confirmation.php
+"2025-03-10 16:50:10",CP03_AC02_Comprar_Vuelo_Confirmacion,500,"Internal Server Error",https://blazedemo.com/confirmation.php
+"2025-03-10 16:50:14",CP03_AC02_Comprar_Vuelo_Confirmacion,404,"Page Not Found",https://blazedemo.com/confirmation.php
+"2025-03-10 16:50:29",CP03_AC01_Comprar_Vuelo_Pursache,500,"Internal Server Error",https://blazedemo.com/purchase.php
+"2025-03-10 16:50:47",CP03_AC02_Comprar_Vuelo_Confirmacion,500,"Internal Server Error",https://blazedemo.com/confirmation.php
+"2025-03-10 16:50:51",CP03_AC02_Comprar_Vuelo_Confirmacion,403,"Unauthorized",https://blazedemo.com/confirmation.php
+"2025-03-10 16:50:51",CP03_AC01_Comprar_Vuelo_Pursache,502,"Bad Gateway",https://blazedemo.com/purchase.php
+"2025-03-10 16:51:03",CP03_AC01_Comprar_Vuelo_Pursache,500,"Internal Server Error",https://blazedemo.com/purchase.php
+"2025-03-10 16:51:21",CP03_AC02_Comprar_Vuelo_Confirmacion,400,"Bad Request",https://blazedemo.com/confirmation.php
+"2025-03-10 16:51:41",CP03_AC01_Comprar_Vuelo_Pursache,502,"Bad Gateway",https://blazedemo.com/purchase.php
+"2025-03-10 16:51:46",CP03_AC01_Comprar_Vuelo_Pursache,404,"Page Not Found",https://blazedemo.com/purchase.php
+"2025-03-10 16:51:46",CP03_AC01_Comprar_Vuelo_Pursache,403,"Unauthorized",https://blazedemo.com/purchase.php
+"2025-03-10 16:52:00",CP03_AC01_Comprar_Vuelo_Pursache,502,"Bad Gateway",https://blazedemo.com/purchase.php
+"2025-03-10 16:52:06",CP03_AC02_Comprar_Vuelo_Confirmacion,404,"Page Not Found",https://blazedemo.com/confirmation.php
+"2025-03-10 16:52:24",CP03_AC02_Comprar_Vuelo_Confirmacion,400,"Bad Request",https://blazedemo.com/confirmation.php
+"2025-03-10 16:52:49",CP03_AC01_Comprar_Vuelo_Pursache,403,"Unauthorized",https://blazedemo.com/purchase.php
+"2025-03-10 16:53:04",CP03_AC01_Comprar_Vuelo_Pursache,500,"Internal Server Error",https://blazedemo.com/purchase.php
+"2025-03-10 16:53:12",CP03_AC01_Comprar_Vuelo_Pursache,403,"Unauthorized",https://blazedemo.com/purchase.php
+"2025-03-10 16:53:15",CP03_AC02_Comprar_Vuelo_Confirmacion,404,"Page Not Found",https://blazedemo.com/confirmation.php
+"2025-03-10 16:53:24",CP03_AC02_Comprar_Vuelo_Confirmacion,403,"Unauthorized",https://blazedemo.com/confirmation.php
+"2025-03-10 16:53:32",CP03_AC02_Comprar_Vuelo_Confirmacion,500,"Internal Server Error",https://blazedemo.com/confirmation.php
+"2025-03-10 16:53:55",CP03_AC02_Comprar_Vuelo_Confirmacion,502,"Bad Gateway",https://blazedemo.com/confirmation.php
+"2025-03-10 16:53:57",CP03_AC01_Comprar_Vuelo_Pursache,502,"Bad Gateway",https://blazedemo.com/purchase.php
+"2025-03-10 16:54:09",CP03_AC02_Comprar_Vuelo_Confirmacion,400,"Bad Request",https://blazedemo.com/confirmation.php
+"2025-03-10 16:54:11",CP03_AC02_Comprar_Vuelo_Confirmacion,500,"Internal Server Error",https://blazedemo.com/confirmation.php
+"2025-03-10 16:54:17",CP03_AC02_Comprar_Vuelo_Confirmacion,400,"Bad Request",https://blazedemo.com/confirmation.php
+"2025-03-10 16:54:22",CP03_AC02_Comprar_Vuelo_Confirmacion,404,"Page Not Found",https://blazedemo.com/confirmation.php
+"2025-03-10 16:54:33",CP03_AC02_Comprar_Vuelo_Confirmacion,502,"Bad Gateway",https://blazedemo.com/confirmation.php
+"2025-03-10 16:54:40",CP03_AC01_Comprar_Vuelo_Pursache,404,"Page Not Found",https://blazedemo.com/purchase.php
+"2025-03-10 16:54:57",CP03_AC01_Comprar_Vuelo_Pursache,502,"Bad Gateway",https://blazedemo.com/purchase.php
+"2025-03-10 16:55:07",CP03_AC02_Comprar_Vuelo_Confirmacion,400,"Bad Request",https://blazedemo.com/confirmation.php
+"2025-03-10 16:55:09",CP03_AC01_Comprar_Vuelo_Pursache,500,"Internal Server Error",https://blazedemo.com/purchase.php
+"2025-03-10 16:55:13",CP03_AC01_Comprar_Vuelo_Pursache,404,"Page Not Found",https://blazedemo.com/purchase.php
+"2025-03-10 16:55:15",CP03_AC02_Comprar_Vuelo_Confirmacion,500,"Internal Server Error",https://blazedemo.com/confirmation.php
+"2025-03-10 16:55:20",CP03_AC01_Comprar_Vuelo_Pursache,500,"Internal Server Error",https://blazedemo.com/purchase.php
+"2025-03-10 16:55:37",CP03_AC01_Comprar_Vuelo_Pursache,404,"Page Not Found",https://blazedemo.com/purchase.php
+"2025-03-10 16:55:52",CP03_AC02_Comprar_Vuelo_Confirmacion,400,"Bad Request",https://blazedemo.com/confirmation.php
+"2025-03-10 16:56:06",CP03_AC02_Comprar_Vuelo_Confirmacion,400,"Bad Request",https://blazedemo.com/confirmation.php
+"2025-03-10 16:56:31",CP03_AC02_Comprar_Vuelo_Confirmacion,500,"Internal Server Error",https://blazedemo.com/confirmation.php
+"2025-03-10 16:56:43",CP03_AC02_Comprar_Vuelo_Confirmacion,400,"Bad Request",https://blazedemo.com/confirmation.php
+"2025-03-10 16:56:48",CP03_AC02_Comprar_Vuelo_Confirmacion,403,"Unauthorized",https://blazedemo.com/confirmation.php
+"2025-03-10 16:56:52",CP03_AC02_Comprar_Vuelo_Confirmacion,500,"Internal Server Error",https://blazedemo.com/confirmation.php
+"2025-03-10 16:57:07",CP03_AC02_Comprar_Vuelo_Confirmacion,404,"Page Not Found",https://blazedemo.com/confirmation.php
+"2025-03-10 16:57:12",CP03_AC01_Comprar_Vuelo_Pursache,502,"Bad Gateway",https://blazedemo.com/purchase.php
+"2025-03-10 16:57:17",CP03_AC02_Comprar_Vuelo_Confirmacion,403,"Unauthorized",https://blazedemo.com/confirmation.php
+"2025-03-10 16:57:22",CP03_AC01_Comprar_Vuelo_Pursache,400,"Bad Request",https://blazedemo.com/purchase.php
+"2025-03-10 16:57:32",CP03_AC01_Comprar_Vuelo_Pursache,500,"Internal Server Error",https://blazedemo.com/purchase.php
+"2025-03-10 16:57:32",CP03_AC02_Comprar_Vuelo_Confirmacion,502,"Bad Gateway",https://blazedemo.com/confirmation.php
+"2025-03-10 16:57:38",CP03_AC01_Comprar_Vuelo_Pursache,500,"Internal Server Error",https://blazedemo.com/purchase.php
+"2025-03-10 16:57:38",CP03_AC01_Comprar_Vuelo_Pursache,404,"Page Not Found",https://blazedemo.com/purchase.php
+"2025-03-10 16:57:38",CP03_AC02_Comprar_Vuelo_Confirmacion,502,"Bad Gateway",https://blazedemo.com/confirmation.php
+"2025-03-10 16:58:01",CP03_AC02_Comprar_Vuelo_Confirmacion,500,"Internal Server Error",https://blazedemo.com/confirmation.php
+"2025-03-10 16:58:03",CP03_AC01_Comprar_Vuelo_Pursache,400,"Bad Request",https://blazedemo.com/purchase.php
+"2025-03-10 16:58:15",CP03_AC01_Comprar_Vuelo_Pursache,404,"Page Not Found",https://blazedemo.com/purchase.php
+"2025-03-10 16:58:18",CP03_AC02_Comprar_Vuelo_Confirmacion,404,"Page Not Found",https://blazedemo.com/confirmation.php
+"2025-03-10 16:58:23",CP03_AC02_Comprar_Vuelo_Confirmacion,502,"Bad Gateway",https://blazedemo.com/confirmation.php
+"2025-03-10 16:58:26",CP03_AC02_Comprar_Vuelo_Confirmacion,500,"Internal Server Error",https://blazedemo.com/confirmation.php
+"2025-03-10 16:58:36",CP03_AC01_Comprar_Vuelo_Pursache,404,"Page Not Found",https://blazedemo.com/purchase.php
+"2025-03-10 16:58:38",CP03_AC02_Comprar_Vuelo_Confirmacion,500,"Internal Server Error",https://blazedemo.com/confirmation.php
+"2025-03-10 16:58:43",CP03_AC01_Comprar_Vuelo_Pursache,500,"Internal Server Error",https://blazedemo.com/purchase.php
+"2025-03-10 16:58:52",CP03_AC01_Comprar_Vuelo_Pursache,404,"Page Not Found",https://blazedemo.com/purchase.php
+"2025-03-10 16:59:13",CP03_AC02_Comprar_Vuelo_Confirmacion,404,"Page Not Found",https://blazedemo.com/confirmation.php
+"2025-03-10 16:59:13",CP03_AC01_Comprar_Vuelo_Pursache,404,"Page Not Found",https://blazedemo.com/purchase.php
+"2025-03-10 16:59:25",CP03_AC02_Comprar_Vuelo_Confirmacion,403,"Unauthorized",https://blazedemo.com/confirmation.php
+"2025-03-10 16:59:28",CP03_AC02_Comprar_Vuelo_Confirmacion,404,"Page Not Found",https://blazedemo.com/confirmation.php
+"2025-03-10 16:59:31",CP03_AC02_Comprar_Vuelo_Confirmacion,404,"Page Not Found",https://blazedemo.com/confirmation.php
+"2025-03-10 16:59:36",CP03_AC02_Comprar_Vuelo_Confirmacion,502,"Bad Gateway",https://blazedemo.com/confirmation.php
+"2025-03-10 16:59:44",CP03_AC01_Comprar_Vuelo_Pursache,500,"Internal Server Error",https://blazedemo.com/purchase.php
+"2025-03-10 16:59:45",CP03_AC02_Comprar_Vuelo_Confirmacion,400,"Bad Request",https://blazedemo.com/confirmation.php
+"2025-03-10 16:59:46",CP03_AC02_Comprar_Vuelo_Confirmacion,500,"Internal Server Error",https://blazedemo.com/confirmation.php
+"2025-03-10 16:59:53",CP03_AC01_Comprar_Vuelo_Pursache,403,"Unauthorized",https://blazedemo.com/purchase.php
+"2025-03-10 17:00:17",CP03_AC01_Comprar_Vuelo_Pursache,502,"Bad Gateway",https://blazedemo.com/purchase.php
+"2025-03-10 17:00:22",CP03_AC01_Comprar_Vuelo_Pursache,403,"Unauthorized",https://blazedemo.com/purchase.php
