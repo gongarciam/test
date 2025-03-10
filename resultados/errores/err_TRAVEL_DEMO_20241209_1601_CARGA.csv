@@ -1,0 +1,2 @@
+Time,Label,Error Code,Error Message,URL
+"2024-12-09 16:09:34",CP03_AC01_Comprar_Vuelo_Pursache,Non HTTP response code: org.apache.http.NoHttpResponseException,"Non HTTP response message: blazedemo.com:443 failed to respond",https://blazedemo.com/purchase.php

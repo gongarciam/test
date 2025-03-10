@@ -1,0 +1,9 @@
+Time,Label,Error Code,Error Message,URL
+"2025-02-26 17:41:36",CP01_AC04_AddObjecto,502,"Bad Gateway",https://api.restful-api.dev/objects
+"2025-02-26 17:42:17",CP01_AC04_AddObjecto,500,"Internal Server error",https://api.restful-api.dev/objects
+"2025-02-26 17:42:52",CP01_AC04_AddObjecto,500,"Internal Server error",https://api.restful-api.dev/objects
+"2025-02-26 17:43:06",CP01_AC04_AddObjecto,502,"Bad Gateway",https://api.restful-api.dev/objects
+"2025-02-26 17:43:26",CP01_AC04_AddObjecto,500,"Internal Server error",https://api.restful-api.dev/objects
+"2025-02-26 17:43:37",CP01_AC04_AddObjecto,500,"Internal Server error",https://api.restful-api.dev/objects
+"2025-02-26 17:43:38",CP01_AC04_AddObjecto,500,"Internal Server error",https://api.restful-api.dev/objects
+"2025-02-26 18:34:25",CP01_AC04_AddObjecto,500,"Internal Server error",https://api.restful-api.dev/objects
